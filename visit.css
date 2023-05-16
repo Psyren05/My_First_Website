@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  ::selection {
+    color: #fff;
+    background: #314829;
+  }
+
+  body main {
+    background: linear-gradient( to bottom, #64755e, #fff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #logo { 
+    float: left;
+    margin-right: 30px;
+  }
+  
+  .header {
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+      border: 10px;   
+  }
+  
+  .nav-links {
+    flex: 1;
+    text-align: right; 
+  }
+  
+  .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 12px;
+    margin-right: 40px;
+    border-radius: 10px;
+    position: relative;
+    background-color: #228B22;
+    cursor: pointer;
+  }
+  
+  .nav-links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+  
+  }
+  
+  .nav-links ul li:hover {
+    background-color: #145314;
+    transition: 0.5s;
+  }
+  
+  main {
+    background-color: #556b2f;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .section1 {
+    text-align: justify;
+    padding: 25px;
+    margin: 10px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .section2 {
+    text-align: justify;
+    padding: 25px;
+    margin: 10px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .tortoise {
+    float: right;
+    padding: 30px 0 30px 30px;
+    margin: 10px 0 10px 10px;
+    height: 280px; 
+    width: 400px;
+    border-radius: 280px 0 0 280px;
+  
+  }
+
+  .child {
+    float: left;
+    padding: 30px 30px 10px 0;
+    margin: 10px 10px 10px 0;
+    height: 280px; 
+    width: 400px;
+    border-radius: 0 280px 280px 0;
+  }
+
+  .center {
+    text-align: center;
+    font-size: 18px;
+  
+  }
+
+  .contact, h2 {
+    margin: 60px;
+  }
+  
+  footer {
+    display: block;
+    text-align: left;
+    background-color: #314829;
+    color:#fff;
+  }
+
+  
